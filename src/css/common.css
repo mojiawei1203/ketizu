@@ -1355,7 +1355,7 @@ span.top{
 /*pad端*/
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
     .pc-con {
-        display: none; /*最开始是None*/
+        display: block; /*最开始是None*/
     }
 
     .pc-info {
@@ -1364,7 +1364,7 @@ span.top{
     }
 
     .mobile-con {
-        display: block;/*最开始是block*/
+        display: none;/*最开始是block*/
         position: relative;
         z-index: 1;
         height: 100%
