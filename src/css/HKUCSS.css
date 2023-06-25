@@ -26,8 +26,8 @@ header {
 
 .business-header {
     height: 30vh;
-    min-height: 180px;
-    background: url('../img/index/bg.jpg') center center no-repeat scroll;
+    min-height: 250px;/*原本180*/
+    background: url('../img/headr.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
