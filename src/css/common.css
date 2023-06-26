@@ -1354,6 +1354,13 @@ span.top{
 
 /*pad端*/
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+	  .head-txt {  /* 6/26修改 */
+        width: 200px;
+        display: inline-block;
+        /*transform: scale(.9);*/
+        /*transform-origin: left;*/
+    }
     .pc-con {
         display: block; /*最开始是None*/
     }
