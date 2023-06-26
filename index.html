@@ -10,11 +10,11 @@
 
     <title>Title</title>
 </head>
-<link rel="stylesheet" href="src/css/bootstrap.min.css">
-<link rel="stylesheet" href="src/css/common.css">
-<link rel="stylesheet" href="src/css/index.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/common2.css">
+<link rel="stylesheet" href="css/index.css">
 <link >
-<link rel="stylesheet" href="src/css/HKUCSS.css">
+<link rel="stylesheet" href="css/HKUCSS.css">
 <style>
 
 
@@ -27,6 +27,18 @@
         src: url(fonts/glyphicons-halflings-regular.woff2);
     }
 
+    /*pad端 6/26加*/
+    /*@media only screen and (min-width: 768px) and (max-width: 1200px) {*/
+    /*    .name{*/
+    /*        font-size: 15px;*/
+    /*        letter-spacing: 3px;*/
+    /*    }*/
+
+    /*    .small{*/
+    /*        font-size: 8px;*/
+    /*        transform-origin: left;*/
+    /*    }*/
+    /*}*/
 
 
 </style>
@@ -38,10 +50,10 @@
     <div class="head-cont">
         <div class="head-left">
             <a href="/" class="home-img">
-                <img src="src/img/深带图标.png" class="logo_school" />
-                <img src="src/img/带logo2.png" class="logo_collage" />
+                <img src="img/深带图标.png" class="logo_school" />
+                <img src="img/带logo2.png" class="logo_collage" />
             </a>
-            <div class="head-txt">
+            <div class="head-txt clearfix">
                 <div class="name b">AI药物设计课题组</div>
                 <div class="small">Artificial Intelligence Drug Design (AIDD) Group</div>
             </div>
@@ -71,7 +83,7 @@
                     </div>
                 </div>
 
-                <div class="mobile-con">
+                <div class="mobile-con"> <!--加了个btn-sm -->
                     <button class="navbar-toggler btn-sm" type="button" data-toggle="collapse" data-target="#navbarResponsive" style="background-color: black" >
                         <span class="glyphicon glyphicon-th-list"></span>
 <!--                        <span class="glyphicon glyphicon-user"></span>-->
@@ -79,26 +91,25 @@
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.html" style="color: yellow;>Home
+                                <a class="nav-link" href="index.html" style="color: yellow;" >Home
                                     <span class="sr-only">(current)</span>
-                
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="people.html" style="color: yellow;>People</a>
+                                <a class="nav-link" href="people.html" style="color: yellow">People</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="publications.html" style="color: yellow;>Publications</a>
+                                <a class="nav-link" href="publications.html" style="color: yellow">Publications</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="grants.html" style="color: yellow;>Grants & Awards</a>
+                                <a class="nav-link" href="grants.html" style="color: yellow">Grants & Awards</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html" style="color: yellow;>Contact</a>
+                                <a class="nav-link" href="contact.html" style="color: yellow">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -127,7 +138,7 @@
 <header class="business-header clearfix">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12">     <!--/*和min-height有关*/-->
                 <!-- <h1 class="display-4 text-center text-white mt-4">Artificial Intelligence Research</h1> -->
                 <h1 class="h1 text-center text-white mt-4" style="color: white">Artificial Intelligence Drug Design</h1>
                 <p class = "lead text-center text-white" style="color: white">The University of Shen Zhen</p>
@@ -423,9 +434,9 @@
 
 
 </body>
-<script src="src/css/jquery-3.4.1.js"></script>
-<script src="src/css/bootstrap.min.js"></script>
-<script src="src/css/common.js"></script>
+<script src="css/jquery-3.4.1.js"></script>
+<script src="css/bootstrap.min.js"></script>
+<script src="css/common.js"></script>
 </html>
 
 
